@@ -1,10 +1,16 @@
 
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 .board {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 350px;
-  height: 350px;
+  width: 310px;
   border: 1px solid red;
   justify-content: center;
   align-items: center;
@@ -18,4 +24,17 @@
   justify-content: center;
   align-items: center;
   font-size: 40px;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#announcement {
+  padding: 10px;
+  font-size: 20px;
 }
